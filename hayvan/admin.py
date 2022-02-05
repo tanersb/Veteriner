@@ -13,8 +13,6 @@ class HayvanAdmin(admin.ModelAdmin):
 
 
 
-
-
     class Meta:
         model = Hayvan
 
