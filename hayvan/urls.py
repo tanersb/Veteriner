@@ -15,4 +15,5 @@ urlpatterns = [
     path('update/',hayvanUpdate),
     path('delete/',hayvanDelete)
 
+
 ]

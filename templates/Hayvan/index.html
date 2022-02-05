@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    {% for hayvan in hayvans %}
+        Id:{{hayvan.id}}<br>
+        Hayvan türü:{{hayvan.tür}}<br>
+        Hayvan cinsi:{{hayvan.cins}}<br>
+        Hayvan isim:{{hayvan.isim}}<br>
+        Hayvan açıklama:{{hayvan.açıklama}}<br>
+        Hayvan dogum tarihi:{{hayvan.dogumtarihi}}<br>
+    <br>
+    <br>
+
+    {% endfor %}
+</body>
+</html>
